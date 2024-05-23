@@ -11,3 +11,4 @@ qr_code = qrcode.QRCode(
 qr_code.add_data('This is my data.')
 qr_code_image = qr_code.make_image()
 qr_code_image.save('qr_code.png')
+print('qr code is generated.')
